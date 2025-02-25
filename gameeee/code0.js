@@ -1,46 +1,41 @@
-gdjs.Game_32SceneCode = {};
-gdjs.Game_32SceneCode.localVariables = [];
-gdjs.Game_32SceneCode.GDBackgroundObjects1= [];
-gdjs.Game_32SceneCode.GDBackgroundObjects2= [];
-gdjs.Game_32SceneCode.GDCoinsObjects1= [];
-gdjs.Game_32SceneCode.GDCoinsObjects2= [];
-gdjs.Game_32SceneCode.GDJumpButtonObjects1= [];
-gdjs.Game_32SceneCode.GDJumpButtonObjects2= [];
-gdjs.Game_32SceneCode.GDJoystickObjects1= [];
-gdjs.Game_32SceneCode.GDJoystickObjects2= [];
-gdjs.Game_32SceneCode.GDMaleCharacter10Objects1= [];
-gdjs.Game_32SceneCode.GDMaleCharacter10Objects2= [];
-gdjs.Game_32SceneCode.GDPlatformObjects1= [];
-gdjs.Game_32SceneCode.GDPlatformObjects2= [];
-gdjs.Game_32SceneCode.GDManWithCapeObjects1= [];
-gdjs.Game_32SceneCode.GDManWithCapeObjects2= [];
-gdjs.Game_32SceneCode.GDBullPortraitObjects1= [];
-gdjs.Game_32SceneCode.GDBullPortraitObjects2= [];
-gdjs.Game_32SceneCode.GDCartoonSmokeBlastObjects1= [];
-gdjs.Game_32SceneCode.GDCartoonSmokeBlastObjects2= [];
+gdjs.Imperial_32battle_32areaCode = {};
+gdjs.Imperial_32battle_32areaCode.localVariables = [];
+gdjs.Imperial_32battle_32areaCode.GDMergedFullBackgroundObjects1= [];
+gdjs.Imperial_32battle_32areaCode.GDMergedFullBackgroundObjects2= [];
+gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects1= [];
+gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects2= [];
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor7Objects1= [];
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor7Objects2= [];
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor5Objects1= [];
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor5Objects2= [];
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor6Objects1= [];
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor6Objects2= [];
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor1Objects1= [];
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor1Objects2= [];
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor2Objects1= [];
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor2Objects2= [];
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor3Objects1= [];
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor3Objects2= [];
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor4Objects1= [];
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor4Objects2= [];
 
 
-gdjs.Game_32SceneCode.mapOfGDgdjs_9546Game_959532SceneCode_9546GDMaleCharacter10Objects1Objects = Hashtable.newFrom({"MaleCharacter10": gdjs.Game_32SceneCode.GDMaleCharacter10Objects1});
-gdjs.Game_32SceneCode.mapOfGDgdjs_9546Game_959532SceneCode_9546GDCoinsObjects1Objects = Hashtable.newFrom({"Coins": gdjs.Game_32SceneCode.GDCoinsObjects1});
-gdjs.Game_32SceneCode.mapOfGDgdjs_9546Game_959532SceneCode_9546GDBullPortraitObjects1Objects = Hashtable.newFrom({"BullPortrait": gdjs.Game_32SceneCode.GDBullPortraitObjects1});
-gdjs.Game_32SceneCode.mapOfGDgdjs_9546Game_959532SceneCode_9546GDMaleCharacter10Objects1Objects = Hashtable.newFrom({"MaleCharacter10": gdjs.Game_32SceneCode.GDMaleCharacter10Objects1});
-gdjs.Game_32SceneCode.mapOfGDgdjs_9546Game_959532SceneCode_9546GDManWithCapeObjects1Objects = Hashtable.newFrom({"ManWithCape": gdjs.Game_32SceneCode.GDManWithCapeObjects1});
-gdjs.Game_32SceneCode.eventsList0 = function(runtimeScene) {
+gdjs.Imperial_32battle_32areaCode.mapOfGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor1Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor2Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor3Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor4Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor7Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor5Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor6Objects1Objects = Hashtable.newFrom({"BigBrownMeteor1": gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor1Objects1, "BigBrownMeteor2": gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor2Objects1, "BigBrownMeteor3": gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor3Objects1, "BigBrownMeteor4": gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor4Objects1, "BigBrownMeteor7": gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor7Objects1, "BigBrownMeteor5": gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor5Objects1, "BigBrownMeteor6": gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor6Objects1});
+gdjs.Imperial_32battle_32areaCode.mapOfGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDTIE_95959595fighterObjects1Objects = Hashtable.newFrom({"TIE_fighter": gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects1});
+gdjs.Imperial_32battle_32areaCode.mapOfGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor1Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor2Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor3Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor4Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor7Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor5Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor6Objects1Objects = Hashtable.newFrom({"BigBrownMeteor1": gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor1Objects1, "BigBrownMeteor2": gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor2Objects1, "BigBrownMeteor3": gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor3Objects1, "BigBrownMeteor4": gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor4Objects1, "BigBrownMeteor7": gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor7Objects1, "BigBrownMeteor5": gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor5Objects1, "BigBrownMeteor6": gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor6Objects1});
+gdjs.Imperial_32battle_32areaCode.eventsList0 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Coins"), gdjs.Game_32SceneCode.GDCoinsObjects1);
-gdjs.copyArray(runtimeScene.getObjects("MaleCharacter10"), gdjs.Game_32SceneCode.GDMaleCharacter10Objects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Game_32SceneCode.mapOfGDgdjs_9546Game_959532SceneCode_9546GDMaleCharacter10Objects1Objects, gdjs.Game_32SceneCode.mapOfGDgdjs_9546Game_959532SceneCode_9546GDCoinsObjects1Objects, false, runtimeScene, false);
+isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Right");
 if (isConditionTrue_0) {
-/* Reuse gdjs.Game_32SceneCode.GDCoinsObjects1 */
-{for(var i = 0, len = gdjs.Game_32SceneCode.GDCoinsObjects1.length ;i < len;++i) {
-    gdjs.Game_32SceneCode.GDCoinsObjects1[i].deleteFromScene(runtimeScene);
+gdjs.copyArray(runtimeScene.getObjects("TIE_fighter"), gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects1);
+{for(var i = 0, len = gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects1.length ;i < len;++i) {
+    gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects1[i].addForce(300, 0, 0);
 }
-}{gdjs.evtTools.sound.playSound(runtimeScene, "PickupCoin", false, 80, gdjs.randomFloatInRange(1, 1.1));
 }}
 
 }
@@ -51,11 +46,12 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Right");
+isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
-gdjs.Game_32SceneCode.GDBullPortraitObjects1.length = 0;
-
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Game_32SceneCode.mapOfGDgdjs_9546Game_959532SceneCode_9546GDBullPortraitObjects1Objects, gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0), "");
+gdjs.copyArray(runtimeScene.getObjects("TIE_fighter"), gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects1);
+{for(var i = 0, len = gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects1.length ;i < len;++i) {
+    gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects1[i].addForce(-(300), 0, 0);
+}
 }}
 
 }
@@ -63,22 +59,151 @@ gdjs.Game_32SceneCode.GDBullPortraitObjects1.length = 0;
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("MaleCharacter10"), gdjs.Game_32SceneCode.GDMaleCharacter10Objects1);
-gdjs.copyArray(runtimeScene.getObjects("ManWithCape"), gdjs.Game_32SceneCode.GDManWithCapeObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.object.distanceTest(gdjs.Game_32SceneCode.mapOfGDgdjs_9546Game_959532SceneCode_9546GDMaleCharacter10Objects1Objects, gdjs.Game_32SceneCode.mapOfGDgdjs_9546Game_959532SceneCode_9546GDManWithCapeObjects1Objects, 500, false);
+isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Up");
 if (isConditionTrue_0) {
-/* Reuse gdjs.Game_32SceneCode.GDManWithCapeObjects1 */
-{for(var i = 0, len = gdjs.Game_32SceneCode.GDManWithCapeObjects1.length ;i < len;++i) {
-    gdjs.Game_32SceneCode.GDManWithCapeObjects1[i].getBehavior("Flippable").flipX(true);
+gdjs.copyArray(runtimeScene.getObjects("TIE_fighter"), gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects1);
+{for(var i = 0, len = gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects1.length ;i < len;++i) {
+    gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects1[i].addForce(0, -(300), 0);
 }
-}{for(var i = 0, len = gdjs.Game_32SceneCode.GDManWithCapeObjects1.length ;i < len;++i) {
-    gdjs.Game_32SceneCode.GDManWithCapeObjects1[i].getBehavior("PlatformerObject").simulateJumpKey();
+}}
+
 }
-}{for(var i = 0, len = gdjs.Game_32SceneCode.GDManWithCapeObjects1.length ;i < len;++i) {
-    gdjs.Game_32SceneCode.GDManWithCapeObjects1[i].getBehavior("PlatformerObject").abortJump();
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Down");
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("TIE_fighter"), gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects1);
+{for(var i = 0, len = gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects1.length ;i < len;++i) {
+    gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects1[i].addForce(0, 300, 0);
+}
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "meteor");
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "meteor") >= 0.5;
+if (isConditionTrue_0) {
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor1Objects1.length = 0;
+
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor2Objects1.length = 0;
+
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor3Objects1.length = 0;
+
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor4Objects1.length = 0;
+
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor5Objects1.length = 0;
+
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor6Objects1.length = 0;
+
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor7Objects1.length = 0;
+
+{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "meteor");
+}{gdjs.evtTools.object.createObjectFromGroupOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Imperial_32battle_32areaCode.mapOfGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor1Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor2Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor3Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor4Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor7Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor5Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor6Objects1Objects, "BigBrownMeteor" + gdjs.evtTools.common.toString(gdjs.randomInRange(1, 7)), gdjs.randomInRange(1, gdjs.evtTools.window.getWindowInnerWidth()), 0, "");
+}{for(var i = 0, len = gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor1Objects1.length ;i < len;++i) {
+    gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor1Objects1[i].getBehavior("Scale").setScale(gdjs.randomFloatInRange(0.5, 2));
+}
+for(var i = 0, len = gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor2Objects1.length ;i < len;++i) {
+    gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor2Objects1[i].getBehavior("Scale").setScale(gdjs.randomFloatInRange(0.5, 2));
+}
+for(var i = 0, len = gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor3Objects1.length ;i < len;++i) {
+    gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor3Objects1[i].getBehavior("Scale").setScale(gdjs.randomFloatInRange(0.5, 2));
+}
+for(var i = 0, len = gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor4Objects1.length ;i < len;++i) {
+    gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor4Objects1[i].getBehavior("Scale").setScale(gdjs.randomFloatInRange(0.5, 2));
+}
+for(var i = 0, len = gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor7Objects1.length ;i < len;++i) {
+    gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor7Objects1[i].getBehavior("Scale").setScale(gdjs.randomFloatInRange(0.5, 2));
+}
+for(var i = 0, len = gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor5Objects1.length ;i < len;++i) {
+    gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor5Objects1[i].getBehavior("Scale").setScale(gdjs.randomFloatInRange(0.5, 2));
+}
+for(var i = 0, len = gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor6Objects1.length ;i < len;++i) {
+    gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor6Objects1[i].getBehavior("Scale").setScale(gdjs.randomFloatInRange(0.5, 2));
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("BigBrownMeteor1"), gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor1Objects1);
+gdjs.copyArray(runtimeScene.getObjects("BigBrownMeteor2"), gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("BigBrownMeteor3"), gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("BigBrownMeteor4"), gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor4Objects1);
+gdjs.copyArray(runtimeScene.getObjects("BigBrownMeteor5"), gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor5Objects1);
+gdjs.copyArray(runtimeScene.getObjects("BigBrownMeteor6"), gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor6Objects1);
+gdjs.copyArray(runtimeScene.getObjects("BigBrownMeteor7"), gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor7Objects1);
+gdjs.copyArray(runtimeScene.getObjects("TIE_fighter"), gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Imperial_32battle_32areaCode.mapOfGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDTIE_95959595fighterObjects1Objects, gdjs.Imperial_32battle_32areaCode.mapOfGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor1Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor2Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor3Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor4Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor7Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor5Objects1ObjectsGDgdjs_9546Imperial_959532battle_959532areaCode_9546GDBigBrownMeteor6Objects1Objects, false, runtimeScene, false);
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Haha bozo", false);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("BigBrownMeteor1"), gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor1Objects1);
+gdjs.copyArray(runtimeScene.getObjects("BigBrownMeteor2"), gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("BigBrownMeteor3"), gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("BigBrownMeteor4"), gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor4Objects1);
+gdjs.copyArray(runtimeScene.getObjects("BigBrownMeteor5"), gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor5Objects1);
+gdjs.copyArray(runtimeScene.getObjects("BigBrownMeteor6"), gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor6Objects1);
+gdjs.copyArray(runtimeScene.getObjects("BigBrownMeteor7"), gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor7Objects1);
+{for(var i = 0, len = gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor1Objects1.length ;i < len;++i) {
+    gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor1Objects1[i].setY(gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor1Objects1[i].getY() + (7));
+}
+for(var i = 0, len = gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor2Objects1.length ;i < len;++i) {
+    gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor2Objects1[i].setY(gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor2Objects1[i].getY() + (7));
+}
+for(var i = 0, len = gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor3Objects1.length ;i < len;++i) {
+    gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor3Objects1[i].setY(gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor3Objects1[i].getY() + (7));
+}
+for(var i = 0, len = gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor4Objects1.length ;i < len;++i) {
+    gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor4Objects1[i].setY(gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor4Objects1[i].getY() + (7));
+}
+for(var i = 0, len = gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor7Objects1.length ;i < len;++i) {
+    gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor7Objects1[i].setY(gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor7Objects1[i].getY() + (7));
+}
+for(var i = 0, len = gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor5Objects1.length ;i < len;++i) {
+    gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor5Objects1[i].setY(gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor5Objects1[i].getY() + (7));
+}
+for(var i = 0, len = gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor6Objects1.length ;i < len;++i) {
+    gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor6Objects1[i].setY(gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor6Objects1[i].getY() + (7));
 }
 }}
 
@@ -87,51 +212,51 @@ if (isConditionTrue_0) {
 
 };
 
-gdjs.Game_32SceneCode.func = function(runtimeScene) {
+gdjs.Imperial_32battle_32areaCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.Game_32SceneCode.GDBackgroundObjects1.length = 0;
-gdjs.Game_32SceneCode.GDBackgroundObjects2.length = 0;
-gdjs.Game_32SceneCode.GDCoinsObjects1.length = 0;
-gdjs.Game_32SceneCode.GDCoinsObjects2.length = 0;
-gdjs.Game_32SceneCode.GDJumpButtonObjects1.length = 0;
-gdjs.Game_32SceneCode.GDJumpButtonObjects2.length = 0;
-gdjs.Game_32SceneCode.GDJoystickObjects1.length = 0;
-gdjs.Game_32SceneCode.GDJoystickObjects2.length = 0;
-gdjs.Game_32SceneCode.GDMaleCharacter10Objects1.length = 0;
-gdjs.Game_32SceneCode.GDMaleCharacter10Objects2.length = 0;
-gdjs.Game_32SceneCode.GDPlatformObjects1.length = 0;
-gdjs.Game_32SceneCode.GDPlatformObjects2.length = 0;
-gdjs.Game_32SceneCode.GDManWithCapeObjects1.length = 0;
-gdjs.Game_32SceneCode.GDManWithCapeObjects2.length = 0;
-gdjs.Game_32SceneCode.GDBullPortraitObjects1.length = 0;
-gdjs.Game_32SceneCode.GDBullPortraitObjects2.length = 0;
-gdjs.Game_32SceneCode.GDCartoonSmokeBlastObjects1.length = 0;
-gdjs.Game_32SceneCode.GDCartoonSmokeBlastObjects2.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDMergedFullBackgroundObjects1.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDMergedFullBackgroundObjects2.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects1.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects2.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor7Objects1.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor7Objects2.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor5Objects1.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor5Objects2.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor6Objects1.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor6Objects2.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor1Objects1.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor1Objects2.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor2Objects1.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor2Objects2.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor3Objects1.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor3Objects2.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor4Objects1.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor4Objects2.length = 0;
 
-gdjs.Game_32SceneCode.eventsList0(runtimeScene);
-gdjs.Game_32SceneCode.GDBackgroundObjects1.length = 0;
-gdjs.Game_32SceneCode.GDBackgroundObjects2.length = 0;
-gdjs.Game_32SceneCode.GDCoinsObjects1.length = 0;
-gdjs.Game_32SceneCode.GDCoinsObjects2.length = 0;
-gdjs.Game_32SceneCode.GDJumpButtonObjects1.length = 0;
-gdjs.Game_32SceneCode.GDJumpButtonObjects2.length = 0;
-gdjs.Game_32SceneCode.GDJoystickObjects1.length = 0;
-gdjs.Game_32SceneCode.GDJoystickObjects2.length = 0;
-gdjs.Game_32SceneCode.GDMaleCharacter10Objects1.length = 0;
-gdjs.Game_32SceneCode.GDMaleCharacter10Objects2.length = 0;
-gdjs.Game_32SceneCode.GDPlatformObjects1.length = 0;
-gdjs.Game_32SceneCode.GDPlatformObjects2.length = 0;
-gdjs.Game_32SceneCode.GDManWithCapeObjects1.length = 0;
-gdjs.Game_32SceneCode.GDManWithCapeObjects2.length = 0;
-gdjs.Game_32SceneCode.GDBullPortraitObjects1.length = 0;
-gdjs.Game_32SceneCode.GDBullPortraitObjects2.length = 0;
-gdjs.Game_32SceneCode.GDCartoonSmokeBlastObjects1.length = 0;
-gdjs.Game_32SceneCode.GDCartoonSmokeBlastObjects2.length = 0;
+gdjs.Imperial_32battle_32areaCode.eventsList0(runtimeScene);
+gdjs.Imperial_32battle_32areaCode.GDMergedFullBackgroundObjects1.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDMergedFullBackgroundObjects2.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects1.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDTIE_9595fighterObjects2.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor7Objects1.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor7Objects2.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor5Objects1.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor5Objects2.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor6Objects1.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor6Objects2.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor1Objects1.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor1Objects2.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor2Objects1.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor2Objects2.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor3Objects1.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor3Objects2.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor4Objects1.length = 0;
+gdjs.Imperial_32battle_32areaCode.GDBigBrownMeteor4Objects2.length = 0;
 
 
 return;
 
 }
 
-gdjs['Game_32SceneCode'] = gdjs.Game_32SceneCode;
+gdjs['Imperial_32battle_32areaCode'] = gdjs.Imperial_32battle_32areaCode;
